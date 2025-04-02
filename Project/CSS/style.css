@@ -1,0 +1,71 @@
+#Home {
+    width: 100vw; /* Asegura que el fondo cubra toda la pantalla */
+    height: 100vh; /* Asegura que tenga el alto completo de la ventana */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('/Project/Images/Background2.jpeg') no-repeat center center;
+    background-size: cover;
+    margin: 0; /* Elimina márgenes */
+    padding: 0; /* Opcional, si hay espacios no deseados */
+}
+
+
+    .navbar-nav .nav-link {
+        color: white !important;
+    }
+    
+    .navbar-nav .nav-link.active {
+        color: white !important;
+    }
+
+    .open-sans-bold {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+        color: white;
+    }
+
+    .libre-baskerville-regular {
+        font-family: "Libre Baskerville", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+    }
+
+    #About p{
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    .navbar-toggler-icon {
+        filter: brightness(0) invert(1); /* Hace que el icono sea blanco */
+    }
+
+    #Projects .col {
+        margin-left: -5px; /* Ajusta el valor según lo necesario */
+    }
+
+    #Projects {
+        background-color: #f8f9fa; /* Color gris claro de Bootstrap */
+    }
+
+    #Contact {
+        background-color: #f8f9fa; /* Color gris claro de Bootstrap */
+    }
+
+    .card-text{
+        text-align: justify;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    
+    #Footer ul, #Footer p {
+        margin: 0 !important; /* Elimina cualquier margen */
+        padding: 0 !important; /* Elimina cualquier relleno */
+    }
+    
+    #Footer ul {
+        border-bottom: none !important; /* Elimina el borde inferior */
+    }
+            
